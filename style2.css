@@ -1,0 +1,64 @@
+body{
+  padding-top: 70px;
+}
+
+/* Nav Bar */
+.navbar{
+  background-color: #7700b3;
+}
+
+/* My Name on Nav Bar */
+.navbar .navbar-brand{
+  color: #fff;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+/* Hover Effects of My Name */
+.navbar .navbar-brand:hover{
+  color: #79ff4d;
+}
+
+/* Menus on Nav Bar */
+.nav-item .nav-link{
+  padding: 15px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+/* Hover Effects on Menus on Nav Bar */
+.nav-item .nav-link:hover{
+  background-color: #000;
+  transition: .4s;
+}
+
+/* White toggler */
+.navbar-toggler .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Google Form iframe */
+.form{
+  width: 100%;
+  height: 0;
+  padding-bottom: 90.25%;
+  position: relative;
+}
+.form iframe{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+}
+
+/* Scroll Bar Effects */
+body::-webkit-scrollbar{
+  width: .75rem;
+}
+body::-webkit-scrollbar-track{
+  background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb{
+  background: #7700b3;
+}
