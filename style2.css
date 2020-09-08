@@ -1,5 +1,6 @@
 body{
   padding-top: 70px;
+  background-color: #D9F7EC !important;
 }
 
 /* Nav Bar */
@@ -50,6 +51,12 @@ body{
   position: absolute;
   width: 100%;
   height: 80%;
+}
+
+/* bootstrap list gruop customize */
+.list-group a:focus{
+  background-color: #7700b3;
+  transition: .4s;
 }
 
 /* Scroll Bar Effects */
