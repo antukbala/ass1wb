@@ -3,9 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Hobbies of Amit Kumar Bala Antu</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+      function showHobbies(){
+        var blood = document.getElementById("blood");
+        var sudoku = document.getElementById("sudoku");
+        var chess = document.getElementById("chess");
+        var cricket = document.getElementById("cricket");
+        var poems = document.getElementById("poems");
+
+        bloodDiv.style.display = blood.checked ? "block" : "none";
+        sudokuDiv.style.display = sudoku.checked ? "block" : "none";
+        chessDiv.style.display = chess.checked ? "block" : "none";
+        cricketDiv.style.display = cricket.checked ? "block" : "none";
+        poemsDiv.style.display = poems.checked ? "block" : "none";
+      }
+    </script>
   </head>
 
   <body>
@@ -20,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
            <ul class="navbar-nav ml-auto">
              <li class="nav-item">
-               <a class="nav-link" href="index2.html">Home</a>
+               <a class="nav-link" href="index.html">Home</a>
              </li>
 
              <li class="nav-item">
@@ -42,6 +57,124 @@
         </div>
       </nav>
     </header>
+
+
+
+    <div style="text-align: center;padding-top:20px">
+      <h1 style="padding-top: 18px">My Hobbies and Activities</h1>
+    </div>
+
+
+
+    <div style="padding: 20px; text-align: center;">
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="blood" name="hobbies" class="custom-control-input" onclick="showHobbies()">
+        <label class="custom-control-label" for="blood">Blood Donation</label>
+      </div>
+
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="sudoku" name="hobbies" class="custom-control-input" onclick="showHobbies()">
+        <label class="custom-control-label" for="sudoku">Sudoku</label>
+      </div>
+
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="chess" name="hobbies" class="custom-control-input" onclick="showHobbies()">
+        <label class="custom-control-label" for="chess">Chess</label>
+      </div>
+
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="cricket" name="hobbies" class="custom-control-input" onclick="showHobbies()">
+        <label class="custom-control-label" for="cricket">Cricket</label>
+      </div>
+
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="poems" name="hobbies" class="custom-control-input" onclick="showHobbies()">
+        <label class="custom-control-label" for="poems">Books and Poems</label>
+      </div>
+    </div>
+
+
+
+    <div class="container" id="sudokuDiv" style="display: none; text-align: center">
+      <h1>Sudoku</h1>
+      <hr><hr><hr>
+
+      <p class="hobby-details">
+        Sudoku is a logic-based, combinatorial number-placement puzzle. In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contain all of the digits from 1 to 9.
+      </p>
+
+      <p class="hobby-details">
+        I love solving sudoku puzzles. Also, I have participated in many national level sudoku contests in Bangladesh.
+      </p>
+
+      <img class="img-fluid" src="sudoku.png" style="max-height:500px; max-width:500px" alt="Sudoku Puzzle">
+      <br><br>
+    </div>
+
+
+
+    <div class="container" id="bloodDiv" style="display: none; text-align: center">
+      <h1>Blood Donation</h1>
+      <hr><hr><hr>
+
+      <p class="hobby-details">
+        I am a regular blood donor. Also for increasing awareness in students, I have formed a Blood Donors Club at Daffodil International University in 2016. Through this club, we organized free blood grouping campaigns, motivated others to donate blood and managed blood in emergency situations.
+      </p>
+
+      <br>
+      <img class="img-fluid" src="blood.jpg" style="max-height:600px" alt="Blood Donation by Amit Kumar Bala Antu">
+      <br><br>
+
+      <p class="hobby-details">
+        Blood is the most precious gift that anyone can give to another person — the gift of life.
+        There is a constant need for regular blood supply because blood can be stored for only a limited time before use. Regular blood donations by a sufficient number of healthy people are needed to ensure that safe blood will be available whenever and wherever it is needed.
+      </p>
+    </div>
+
+
+
+    <div class="container" id="chessDiv" style="display: none; text-align: center">
+      <h1>Chess</h1>
+      <hr><hr><hr>
+
+      <p class="hobby-details">
+        I like playing chess. Whenever I get some free time I play chess with my friends and sometime in online platforms.
+      </p>
+
+      <br>
+      <img class="img-fluid" style="max-width:580px; max-height:500px" src="chess.jpg" alt="Chess Board">
+      <br><br>
+    </div>
+
+
+
+    <div class="container" id="cricketDiv" style="display: none; text-align: center">
+      <h1>Cricket</h1>
+      <hr><hr><hr>
+
+      <p class="hobby-details">
+        Cricket is my favorite game. I enjoy playing cricket as well as watching. I am a die-hard fan of the Bangladesh Cricket team.
+      </p>
+
+      <br>
+      <img class="img-fluid" style="max-height: 500px" src="cricket.png" alt="Bangladeshi Cricketers Cartoon">
+      <br><br>
+    </div>
+
+
+
+    <div class="container" id="poemsDiv" style="display: none; text-align: center">
+      <h1>Books and Poems</h1>
+      <hr><hr><hr>
+
+      <p class="hobby-details">
+        As a child, I was fond of Bengali fiction and travel books. After that, I discovered an interest in Bengali novels. Some of my favorite authors are Shirshendu Mukhopadhyay, Satyajit Ray, Sunil Gangopadhyay, Syed Mujtaba Ali, Anisul Hoque.
+        <br><br>I have a profound love for Bengali poems too. I like the poems of Rabindranath Tagore, Abul Hasan, Nirmalendu Goon, Rudra Mohammad Shahidullah, Mahadev Saha, Jibanananda Das, Helal Hafiz, Rafiq Azad, Rudra Goswami.
+        <br><br>Lately, I am reading some non-fiction books related to personal development and entrepreneurship.
+      </p>
+    </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

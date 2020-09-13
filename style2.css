@@ -1,12 +1,16 @@
 body{
-  padding-top: 70px;
+  padding-top: 80px;
   background-color: #D9F7EC !important;
 }
+
+
 
 /* Nav Bar */
 .navbar{
   background-color: #7700b3;
 }
+
+
 
 /* My Name on Nav Bar */
 .navbar .navbar-brand{
@@ -16,10 +20,14 @@ body{
   letter-spacing: 2px;
 }
 
+
+
 /* Hover Effects of My Name */
 .navbar .navbar-brand:hover{
   color: #79ff4d;
 }
+
+
 
 /* Menus on Nav Bar */
 .nav-item .nav-link{
@@ -29,16 +37,22 @@ body{
   color: #fff;
 }
 
+
+
 /* Hover Effects on Menus on Nav Bar */
 .nav-item .nav-link:hover{
   background-color: #000;
   transition: .4s;
 }
 
+
+
 /* White toggler */
 .navbar-toggler .navbar-toggler-icon{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
+
 
 /* Google Form iframe */
 .form{
@@ -53,11 +67,97 @@ body{
   height: 80%;
 }
 
-/* bootstrap list gruop customize */
+
+
+/* bootstrap list gruop customize for projects page */
+.list-group a{
+  font-size: 22px;
+}
 .list-group a:focus{
   background-color: #7700b3;
-  transition: .4s;
+  transition: .3s;
 }
+.tab-content .tab-pane li{
+  font-size: 22px;
+}
+
+
+
+/* radio button label */
+.custom-control-label{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+
+.hobby-details{
+  font-size: 25px;
+}
+
+
+
+/* carousel image */
+.w-100 {
+  width: 100% !important;
+  height: 90vh;
+}
+
+
+
+/* Quote */
+.mb-0{
+  font-size: 35px;
+  font-weight: bold;
+  color: green;
+  padding-top: 20px;
+}
+#quoted{
+  font-size: 25px;
+  font-weight: 500;
+  color: green;
+  font-style: italic;
+}
+
+
+
+/* home page pic */
+.rounded-circle{
+  max-width: 350px;
+  max-height: 350px;
+}
+
+
+
+video{
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* Social Links */
+div a i{
+  color: #010300;
+}
+div a .fa-linkedin-square:hover{
+  color: #007bb5;
+  transition: .3s;
+}
+div a .fa-github:hover{
+  color: #6e5494;
+  transition: .3s;
+}
+div a .fa-facebook-official:hover{
+  color: #3b5998;
+  transition: .3s;
+}
+div a .fa-instagram:hover{
+  color: #c32aa3;
+  transition: .3s;
+}
+
+
 
 /* Scroll Bar Effects */
 body::-webkit-scrollbar{
